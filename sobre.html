@@ -2,140 +2,48 @@
 <html lang="pt-BR">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MusicDot | Sobre a empresa</title>
-
-    <link rel="icon" href="img/favicon.ico">
+    <title>MusicDot | Sobre</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=block">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-        }
-
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .logo {
-            max-width: 200px;
-            display: block;
-            margin-bottom: 20px;
-        }
-
-        /* --- NOVOS SELETORES DE CLASSE --- */
-
-        /* Estilo compartilhado para Títulos Principais (ex: Sobre e Contato) */
-        .titulo-principal {
-            font-size: 2.5em; /* Tamanho grande como um H1 */
-            font-weight: bold;
-            margin-bottom: 20px;
-            clear: both;
-        }
-
-        /* Estilo para Subtítulos com borda (ex: História e Diferenciais) */
-        .subtitulo {
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
-            margin-top: 40px;
-            font-size: 1.5em;
-            clear: both;
-        }
-
-        /* --- ESTILOS DE ELEMENTOS --- */
-
-        figure img {
-            width: 100%;
-            display: block;
-        }
-
-        .familia {
-            width: 275px;
-            float: right;
-            margin-left: 20px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            padding: 5px;
-            background-color: #f9f9f9;
-        }
-
-        .matriz {
-            width: 550px;
-            margin: 20px auto;
-            border: 1px solid #ccc;
-            padding: 5px;
-            background-color: #f9f9f9;
-        }
-
-        figcaption {
-            font-style: italic;
-            text-align: center;
-            margin-top: 5px;
-        }
-
-        footer {
-            margin-top: 40px;
-            border-top: 1px solid #ccc;
-            padding-top: 10px;
-            text-align: center;
-        }
+        .container { max-width: 960px; margin: 0 auto; padding: 20px; }
+        .titulo-principal { font-size: 2.5em; font-weight: bold; margin-bottom: 20px; clear: both; }
+        .subtitulo { border-bottom: 2px solid #333; padding-bottom: 5px; margin-top: 40px; clear: both; font-size: 1.5em; }
+        figure img { width: 100%; display: block; }
+        .familia { width: 275px; float: right; margin-left: 20px; margin-bottom: 10px; }
+        .matriz { width: 550px; margin: 20px auto; }
+        ul { margin-left: 20px; }
     </style>
 </head>
 <body>
-
     <div class="container">
         <header>
-            <img src="img/logo.svg" alt="Logo da MusicDot" class="logo">
+            <img src="img/logo.svg" alt="MusicDot" style="max-width: 200px;">
             <h1 class="titulo-principal">Sobre a MusicDot</h1>
         </header>
-
         <main>
             <h2 id="historia" class="subtitulo">História</h2>
-
             <figure class="familia">
                 <img src="img/familia-tupfeln.jpg" alt="Família Tüpfeln">
-                <figcaption>Família Tüpfeln</figcaption>
+                <figcaption style="text-align:center">Família Tüpfeln</figcaption>
             </figure>
-
-            <p>
-                A fundação em 1932 ocorreu no momento da descoberta econômica de cursos por stream online no interior de Santa Catarina...
-            </p>
-
-            <p>
-                O crescimento em número de funcionários é assombroso. Hoje, é a maior empregadora do Brasil em <a href="http://maps.google.com.br/?q=190,GabrielDequech,Mafra,SC">Mafra, em Santa Catarina</a>.
-            </p>
-
-            <p>
-                Conheça mais no <a href="index.html">nosso site</a>, leia a <a href="#historia">nossa história</a> ou veja os <a href="#diferenciais">nossos diferenciais</a>.
-            </p>
-
+            <p>A fundação em 1932 ocorreu no momento da descoberta econômica de cursos por stream online no interior de Santa Catarina.</p>
+            <p>Conheça mais no nosso site, leia a nossa história ou veja os nossos diferenciais.</p>
             <figure class="matriz">
-                <img src="img/matriz-musicdot.png" alt="Matriz da MusicDot">
-                <figcaption>Nossa matriz.</figcaption>
+                <img src="img/matriz-musicdot.png" alt="Matriz">
+                <figcaption style="text-align:center">Nossa matriz.</figcaption>
             </figure>
-
             <h2 id="diferenciais" class="subtitulo">Diferenciais</h2>
             <ul>
                 <li>Menor preço do mercado, garantido</li>
-                <li>Pague em reais, dólares, euros, libras, dodgecoins, litecoins ou bitcoins</li>
-                <li>Presente em 124 países</li>
+                <li>Maior escola de música online do mundo</li>
             </ul>
-
-            <section>
+            <section id="contato">
                 <h2 class="titulo-principal">Contato</h2>
-                <p>Entre em contacto connosco para esclarecer as suas dúvidas!</p>
+                <h3 class="subtitulo">Mensagem</h3>
+                <p><a href="contato.html" style="color: blue; text-decoration: underline;">Clique aqui para nos enviar uma mensagem</a></p>
             </section>
         </main>
-
-        <footer>
-            <p>© MusicDot</p>
-        </footer>
     </div>
-
 </body>
 </html>
