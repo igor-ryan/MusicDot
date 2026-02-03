@@ -1,0 +1,17 @@
+.cabecalho {
+    background-color: #2D5377;
+    color: #FFF;
+  padding: 20px 0;
+}
+
+.cabecalho__logo {
+    max-width: 200px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.cabecalho__navegacao li {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: 500;
+}
