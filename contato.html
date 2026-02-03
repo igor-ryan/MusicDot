@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>MusicDot | Contato</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=block">
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        body { padding: 20px; }
+        .titulo-contato { background-color: #e1edf2; padding: 15px; font-weight: bold; font-size: 24px; margin-bottom: 20px; }
+        .campo-grupo { margin-bottom: 10px; display: flex; align-items: center; }
+        .input-padrao { width: 500px; height: 30px; border: 1px solid #333; padding: 5px; }
+        .textarea-padrao { width: 500px; height: 300px; border: 1px solid #333; padding: 5px; }
+        .botao-enviar { width: 100px; height: 50px; background: #FFF; font-weight: bold; border: 2px solid #000; cursor: pointer; }
+        label { margin-left: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div style="max-width: 960px; margin: 0 auto;">
+        <h1 class="titulo-contato">Entre em contato</h1>
+        <form action="#" method="POST">
+            <div class="campo-grupo">
+                <input type="text" id="nome" name="nome" class="input-padrao" required>
+                <label for="nome">Nome</label>
+            </div>
+            <div class="campo-grupo">
+                <input type="tel" id="fone" name="fone" class="input-padrao" required>
+                <label for="fone">Fone</label>
+            </div>
+            <div class="campo-grupo">
+                <input type="email" id="email" name="email" class="input-padrao" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="campo-grupo">
+                <textarea id="opiniao" name="opiniao" class="textarea-padrao" placeholder="Deixe sua opinião"></textarea>
+            </div>
+            <button type="submit" class="botao-enviar">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
